@@ -29,7 +29,7 @@
 <cffunction name="oneResult">
     <cfoutput> 
         <img src="images/#bookinfo.IMAGE[1]#" style="float:left; width:250px; 
-            height:250px" />     
+            object-fit:contain; height:auto; max-height:250px;" />     
         <h3>Title: #bookinfo.title[1]#</h3> 
         <div>Publisher: #bookinfo.name[1]#</div> 
         <div>Year of Publication: #bookinfo.year[1]#</div>
